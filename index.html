@@ -1,0 +1,352 @@
+<!DOCTYPE html><!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NG test App</title>
+  <link href="./assets/css/main.css" rel="stylesheet"></head>
+  <body>
+    <main>
+      <div class="room-lists">
+        <div class="buttons">
+          <button class="button child-room">Детская</button>
+          <button class="button reload">Сбросить		</button>
+        </div>
+        <ul class="room-list">
+          <li class="room-list__item button">Рабочая зона
+            <div class="subItem">
+              <ul class="subItem__list">
+                <li class="subItem__list-item button">Компьютер
+                  <div class="subItem">
+                    <ul class="subItem__list">
+                      <li class="subItem__list-item picking-item button">Ноутбук</li>
+                      <li class="subItem__list-item picking-item button">Моноблок</li>
+                      <li class="subItem__list-item picking-item button">Требуется ИБП</li>
+                      <li class="subItem__list-item picking-item button">Отсутствует</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="subItem__list-item button">Столешница
+                  <div class="subItem">
+                    <ul class="subItem__list">
+                      <li class="subItem__list-item button">Хранение
+                        <div class="subItem">
+                          <ul class="subItem__list">
+                            <li class="subItem__list-item button picking-item">Открытые полки бюро</li>
+                            <li class="subItem__list-item button picking-item">Выдвижные ящики в столешнице</li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="subItem__list-item picking-item button">Размер</li>
+                      <li class="subItem__list-item button">Материал
+                        <div class="subItem">
+                          <ul class="subItem__list">
+                            <li class="subItem__list-item button picking-item">Дерево</li>
+                            <li class="subItem__list-item button picking-item">Кожа</li>
+                            <li class="subItem__list-item button picking-item">Пластик</li>
+                            <li class="subItem__list-item button picking-item">Сукно</li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="subItem__list-item button"> Оргтехника
+                  <div class="subItem">
+                    <ul class="subItem__list">
+                      <li class="subItem__list-item picking-item button">МФУ а4</li>
+                      <li class="subItem__list-item picking-item button">МФУ а3</li>
+                      <li class="subItem__list-item picking-item button">Принтер а3</li>
+                      <li class="subItem__list-item picking-item button">Сканер</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="subItem__list-item button"> Хранение
+                  <div class="subItem">
+                    <ul class="subItem__list">
+                      <li class="subItem__list-item button"> Тип
+                        <div class="subItem">
+                          <ul class="subItem__list">
+                            <li class="subItem__list-item picking-item button"> Сервисная тумба с ящиками</li>
+                            <li class="subItem__list-item picking-item button"> Тумба малая на колесах</li>
+                            <li class="subItem__list-item picking-item button"> Встроеная тумба</li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="subItem__list-item button"> Содержание
+                        <div class="subItem">
+                          <ul class="subItem__list">
+                            <li class="subItem__list-item picking-item button">Канц товары</li>
+                            <li class="subItem__list-item picking-item button">Материалы для творчества</li>
+                            <li class="subItem__list-item picking-item button">Бумага</li>
+                            <li class="subItem__list-item picking-item button">Провода, диски, батарейки</li>
+                            <li class="subItem__list-item button"> Гаджеты
+                              <div class="subItem">
+                                <ul class="subItem__list">
+                                  <li class="subItem__list-item picking-item button">Планшет</li>
+                                  <li class="subItem__list-item picking-item button">Фотоаппарат</li>
+                                  <li class="subItem__list-item picking-item button">Экшен камера</li>
+                                  <li class="subItem__list-item picking-item button">Запасная батарея</li>
+                                  <li class="subItem__list-item picking-item button">GPS</li>
+                                  <li class="subItem__list-item picking-item button">Запасной телефон</li>
+                                  <li class="subItem__list-item picking-item button">Сьемный диск</li>
+                                  <li class="subItem__list-item picking-item button">Плеер</li>
+                                  <li class="subItem__list-item picking-item button">Наушники</li>
+                                  <li class="subItem__list-item picking-item button">Требуется место зарядки</li>
+                                </ul>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="subItem__list-item button"> Освещение
+                  <div class="subItem">
+                    <ul class="subItem__list">
+                      <li class="subItem__list-item picking-item button"> Линейное локальное</li>
+                      <li class="subItem__list-item picking-item button"> Настольная лампа</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="room-list__item button"> Место для творчества
+            <div class="subItem">
+              <ul class="subItem__list">
+                <li class="subItem__list-item button">Тип
+                  <div class="subItem">
+                    <ul class="subItem__list">
+                      <li class="subItem__list-item button">Музыка
+                        <div class="subItem">
+                          <ul class="subItem__list">
+                            <li class="subItem__list-item picking-item button">Барабаны</li>
+                            <li class="subItem__list-item picking-item button">Синтезатор, фортепиано</li>
+                            <li class="subItem__list-item picking-item button">Скрипка, виолончель, гитара</li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="subItem__list-item picking-item button">Мольберт</li>
+                      <li class="subItem__list-item picking-item button">Швейная машина</li>
+                      <li class="subItem__list-item picking-item button">Лепка</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="subItem__list-item button">Хранение материалов
+                  <div class="subItem">
+                    <ul class="subItem__list">
+                      <li class="subItem__list-item picking-item button">Обьем</li>
+                      <li class="subItem__list-item button">Тип
+                        <div class="subItem">
+                          <ul class="subItem__list">
+                            <li class="subItem__list-item picking-item button">Встроенный</li>
+                            <li class="subItem__list-item picking-item button">Отдельно стоящий</li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="room-list__item button button"> Учебные материалы
+            <div class="subItem">
+              <ul class="subItem__list">
+                <li class="subItem__list-item button">Тип
+                  <div class="subItem">
+                    <ul class="subItem__list">
+                      <li class="subItem__list-item picking-item button">Отдельно стоящий</li>
+                      <li class="subItem__list-item picking-item button">Встроеный</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="subItem__list-item button">Состав хранения
+                  <div class="subItem">
+                    <ul class="subItem__list">
+                      <li class="subItem__list-item picking-item button">Книги</li>
+                      <li class="subItem__list-item picking-item button">Альбомы</li>
+                      <li class="subItem__list-item picking-item button">Документы</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="room-list__item button">Гардероб
+            <div class="subItem">
+              <ul class="subItem__list">
+                <li class="subItem__list-item button">Тип
+                  <div class="subItem">
+                    <ul class="subItem__list">
+                      <li class="subItem__list-item picking-item button">Отдельно стоящий</li>
+                      <li class="subItem__list-item picking-item button">Встроеный</li>
+                      <li class="subItem__list-item picking-item button">Отдельное помещение</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="subItem__list-item button">Состав хранения
+                  <div class="subItem">
+                    <ul class="subItem__list">
+                      <li class="subItem__list-item picking-item button">М</li>
+                      <li class="subItem__list-item picking-item button">Ж</li>
+                      <li class="subItem__list-item picking-item button">Все системы за фасадами</li>
+                      <li class="subItem__list-item picking-item button">Требуется место для сидения</li>
+                      <li class="subItem__list-item picking-item button">Зеркало в полный рост</li>
+                      <li class="subItem__list-item picking-item button">Разместить туалетный столик</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="room-list__item button"> ТВ зона
+            <div class="subItem">
+              <ul class="subItem__list">
+                <li class="subItem__list-item button">Изображение
+                  <div class="subItem">
+                    <ul class="subItem__list">
+                      <li class="subItem__list-item picking-item button">Проектор</li>
+                      <li class="subItem__list-item picking-item button">ТВ</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="subItem__list-item button">Звук
+                  <div class="subItem">
+                    <ul class="subItem__list">
+                      <li class="subItem__list-item picking-item button">Потолочная стерео</li>
+                      <li class="subItem__list-item button">5.1
+                        <div class="subItem">
+                          <ul class="subItem__list">
+                            <li class="subItem__list-item picking-item button">Встроеная</li>
+                            <li class="subItem__list-item picking-item button">Навесная</li>
+                            <li class="subItem__list-item picking-item button">Напольная</li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="subItem__list-item button">Ресурс
+                  <div class="subItem">
+                    <ul class="subItem__list">
+                      <li class="subItem__list-item picking-item button">Кабельное</li>
+                      <li class="subItem__list-item picking-item button">Apple TV</li>
+                      <li class="subItem__list-item picking-item button">Сетевое хранилище</li>
+                      <li class="subItem__list-item picking-item button">Проигрыватель USB CD</li>
+                      <li class="subItem__list-item picking-item button">Приставка</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="room-list__item button"> Место для отдыха
+            <div class="subItem">
+              <ul class="subItem__list">
+                <li class="subItem__list-item button">Диван
+                  <div class="subItem">
+                    <ul class="subItem__list">
+                      <li class="subItem__list-item picking-item button">Подходит для сна</li>
+                      <li class="subItem__list-item picking-item button">Для двух людей</li>
+                      <li class="subItem__list-item button">Материал
+                        <div class="subItem">
+                          <ul class="subItem__list">
+                            <li class="subItem__list-item picking-item button">Кожа</li>
+                            <li class="subItem__list-item picking-item button">Ткань</li>
+                            <li class="subItem__list-item picking-item button">Замша</li>
+                            <li class="subItem__list-item picking-item button">Велюр</li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="subItem__list-item button">Тип спины
+                        <div class="subItem">
+                          <ul class="subItem__list">
+                            <li class="subItem__list-item picking-item button">Низкая</li>
+                            <li class="subItem__list-item picking-item button">Средняя</li>
+                            <li class="subItem__list-item picking-item button">Высокая</li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="subItem__list-item button">Кресло
+                  <div class="subItem">
+                    <ul class="subItem__list">
+                      <li class="subItem__list-item picking-item button">Встроенные карманы</li>
+                      <li class="subItem__list-item picking-item button">Поддержка ног</li>
+                      <li class="subItem__list-item picking-item button">Реклайнер</li>
+                      <li class="subItem__list-item button">Материал
+                        <div class="subItem">
+                          <ul class="subItem__list">
+                            <li class="subItem__list-item picking-item button">Кожа</li>
+                            <li class="subItem__list-item picking-item button">Ткань</li>
+                            <li class="subItem__list-item picking-item button">Замша</li>
+                            <li class="subItem__list-item picking-item button">Велюр</li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="subItem__list-item button">Тип спины
+                        <div class="subItem">
+                          <ul class="subItem__list">
+                            <li class="subItem__list-item picking-item button">Низкая</li>
+                            <li class="subItem__list-item picking-item button">Средняя</li>
+                            <li class="subItem__list-item picking-item button">Высокая</li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="subItem__list-item button">Журнальный стол
+                  <div class="subItem">
+                    <ul class="subItem__list">
+                      <li class="subItem__list-item picking-item button">Настольная лампа</li>
+                      <li class="subItem__list-item picking-item button">Журнальница</li>
+                      <li class="subItem__list-item picking-item button">Ящики</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="subItem__list-item button">Локальное освещение
+                  <div class="subItem">
+                    <ul class="subItem__list">
+                      <li class="subItem__list-item picking-item button">Торшер</li>
+                      <li class="subItem__list-item picking-item button">Бра</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="room-list__item button"> Спорт
+            <div class="subItem">
+              <ul class="subItem__list">
+                <li class="subItem__list-item picking-item button">С собственным весом</li>
+                <li class="subItem__list-item picking-item button">Шведская стенка, TRX</li>
+                <li class="subItem__list-item picking-item button">Йога, гимнастика</li>
+                <li class="subItem__list-item picking-item button">Гантели</li>
+              </ul>
+            </div>
+          </li>
+          <li class="room-list__item button"> Туалетный стол
+            <div class="subItem">
+              <ul class="subItem__list">
+                <li class="subItem__list-item picking-item button">Сидение</li>
+                <li class="subItem__list-item picking-item button">Зеркало</li>
+                <li class="subItem__list-item picking-item button">Хранение крупное</li>
+                <li class="subItem__list-item picking-item button">Консоль</li>
+                <li class="subItem__list-item picking-item button">Освещение</li>
+                <li class="subItem__list-item picking-item button">Зеркало в полный рост</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="result"></div>
+    </main>
+  <script type="text/javascript" src="./assets/js/main.js"></script></body>
+</html>
